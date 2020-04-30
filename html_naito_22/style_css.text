@@ -1,0 +1,186 @@
+/* ここから下に記載していく */
+h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+h2 {
+  color: white;
+  font-size: 40px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 60px 0px 30px 0px;
+}
+h4 {
+  font-size: 18px;
+  padding-bottom: 60px;
+}
+p {
+  font-size: 16px;
+}
+
+.lapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.centerline {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 121px;
+}
+
+.header_img {
+  position: absolute;
+  top: 1%;
+  left: 3%;
+  height: 78px;
+}
+
+.menu__list {
+  position: absolute;
+  right: 5%;
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  font-size: 21px;
+}
+
+.menu__button {
+  text-decoration: none;
+  padding: 0px 0px 0px 50px;
+}
+
+.menu__button a {
+  color: black;
+}
+
+.main {
+  position: relative;
+}
+
+.main__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main img {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about {
+}
+
+.h3__color {
+  color: #ffd61a;
+}
+
+.about__img {
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+}
+
+#about p {
+  padding-bottom: 40px;
+}
+
+.about__content {
+  animation: sliderAnime 6s ease-in-out infinite;
+}
+
+@keyframes sliderAnime {
+  0% {
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.course__1 {
+  display: flex;
+}
+
+.course__1img {
+  right: 50%;
+  position: absolute;
+}
+
+.course__1text {
+  height: 460px;
+}
+
+.course__2 {
+  display: flex;
+}
+
+.course__2text {
+  height: 460px;
+}
+
+.course__2img {
+  left: 50%;
+  position: absolute;
+}
+
+.course__3 {
+  display: flex;
+}
+
+.course__3img {
+  right: 50%;
+  position: absolute;
+}
+
+.course__3text {
+  height: 460px;
+}
+
+.news__div {
+  left: 50%;
+  position: absolute;
+}
+
+.news__menu {
+  display: flex;
+  padding: 60px 0px 0px 0px;
+  transform: translate(-50%, -50%);
+}
+
+.news__img {
+  width: 300px;
+}
+
+.news__1 {
+  width: 300px;
+  padding: 0px 15px;
+}
+
+.news__2 {
+  width: 300px;
+  padding: 0px 15px;
+}
+
+.news__3 {
+  width: 300px;
+  padding: 0px 15px;
+}
+
+.news__button {
+  margin: 60px 0px 60px 0px;
+}
